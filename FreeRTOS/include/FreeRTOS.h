@@ -265,7 +265,7 @@ extern "C" {
 #endif
 
 #ifndef configIDLE_SHOULD_YIELD
-	#define configIDLE_SHOULD_YIELD		 1
+	#define configIDLE_SHOULD_YIELD		1
 #endif
 
 #if configMAX_TASK_NAME_LEN < 1
@@ -1060,4 +1060,5 @@ typedef struct xSTATIC_TIMER
 #endif
 
 #endif /* INC_FREERTOS_H */
+
 
